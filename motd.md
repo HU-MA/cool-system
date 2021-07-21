@@ -6,26 +6,26 @@
 
 ---
 
-* **You are accessing a U.S. Government information system, which includes
+- **You are accessing a U.S. Government information system, which includes
   (1) this computer, (2) this computer network, (3) all computers connected
   to this network and (4) all devices and storage media attached to this
   network or to a computer on this network.  This information system is
   provided for U.S. Government-authorized use only.**
-* **Unauthorized or improper use or access of this system may result in
+- **Unauthorized or improper use or access of this system may result in
   disciplinary action, as well as civil and criminal penalties.**
-* **By using this information system, you understand and consent to the
+- **By using this information system, you understand and consent to the
   following:**
-  * **You have no reasonable expectation of privacy when you use this
+  - **You have no reasonable expectation of privacy when you use this
     information system; this includes any communications or data transiting,
     stored on, originated from or directed to this information system.
     At any time, and for any lawful government purpose, the government may
     monitor, intercept, search and seize any communication or data
     transiting, stored on, originated from or directed to or from this
     information system.**
-  * **The government may disclose or use any communications or data
+  - **The government may disclose or use any communications or data
     transiting, stored on, originated from or directed to or from this
     information system for any lawful government purpose.**
-  * **You are NOT authorized to process classified information on this
+  - **You are NOT authorized to process classified information on this
     information system.**
 
 ---
@@ -38,8 +38,8 @@ Guacamole instances in COOL assessment environments now can only be accessed
 with valid Kerberos credentials.  The following one-time setup steps must be
 completed on your local system in order to access Guacamole:
 
-* [Configure Kerberos for the COOL](https://github.com/cisagov/cool-system/wiki/Configuring-Kerberos-for-the-COOL)
-* [Configure your browser for the COOL](https://github.com/cisagov/cool-system/wiki/Configuring-your-browser-for-the-COOL)
+- [Configure Kerberos for the COOL](https://github.com/cisagov/cool-system/wiki/Configuring-Kerberos-for-the-COOL)
+- [Configure your browser for the COOL](https://github.com/cisagov/cool-system/wiki/Configuring-your-browser-for-the-COOL)
 
 After you have completed the setup steps above, you are ready to
 [access a COOL assessment environment with Guacamole](https://github.com/cisagov/cool-system/wiki/Accessing-an-assessment-environment-with-Guacamole).
@@ -65,8 +65,8 @@ Kali image
 [`v0.0.15`](https://github.com/cisagov/kali-packer/releases/tag/v0.0.15) has
 been deployed to production.  This release includes:
 
-* [Additional assessment tools](https://github.com/cisagov/ansible-role-kali/issues/8).
-* [Cosmetic and quality of life improvements](https://github.com/cisagov/ansible-role-xfce-cool)
+- [Additional assessment tools](https://github.com/cisagov/ansible-role-kali/issues/8).
+- [Cosmetic and quality of life improvements](https://github.com/cisagov/ansible-role-xfce-cool)
   for the desktop environment.
 
 ### April 6, 2020 ###
@@ -74,9 +74,9 @@ been deployed to production.  This release includes:
 The assessment test environment has been
 [upgraded with bigger and better instances](https://github.com/cisagov/cool-assessment-terraform/pull/29):
 
-* The Guacamole instance was upgraded from
+- The Guacamole instance was upgraded from
 [t3.micro to t3.medium](https://aws.amazon.com/ec2/instance-types/t3/).
-* The Kali instances were upgraded from
+- The Kali instances were upgraded from
 [t2.medium to t2.large](https://aws.amazon.com/ec2/instance-types/t2/).
 Note that our Kali instances are based on an
 [AWS Marketplace AMI](https://aws.amazon.com/marketplace/pp/Kali-Linux-Kali-Linux/B01M26MMTT)
@@ -112,7 +112,7 @@ Alpha testing is ongoing- please
 
 ## Quick links for COOL users ##
 
-* [Submit feedback](https://github.com/cisagov/cool-system/issues/new/choose) –
+- [Submit feedback](https://github.com/cisagov/cool-system/issues/new/choose) –
  Found something that needs changing? Open an issue and let us know.
 
 ## Contributing ##
